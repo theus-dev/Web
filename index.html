@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algoritmo Two Sum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Algoritmo Two Sum</h1>
+  <h2>O que é Two Sum?</h2>
+  <p>
+    Two Sum é o nome dado a um algoritmo. É uma técnica usada para encontrar dois números em uma lista que somados sejam iguais a um determinado valor alvo.
+  </p>
+
+  <hr>
+  <div id="central">
+    <h2>Teste o Algoritmo Aqui</h2>
+    <p>Adicione números à lista neste campo:</p>
+
+    <form>
+      <input type="text" id="num" name="num" placeholder="Digite um número">
+      <button type="button" onclick="addNum()" aria-label="Adicionar número">Adicionar</button>
+    </form>
+
+    <p>Lista:</p>
+    <p id="output">* Vazia *</p>
+    <p id="problem"></p>
+
+    <p>Qual é o valor alvo?</p>
+    <form>
+      <input type="text" id="targetNum" placeholder="Digite o valor alvo">
+      <button type="button" onclick="twoSum()" aria-label="Enviar valor alvo">Enviar</button>
+    </form>
+    <p id="numOutput"></p>
+
+    <p>Resultado:</p>
+
+    <div id="result">
+      <div id="elemento1">
+        <p id="num1"></p>
+        <p id="position1"></p>
+      </div>
+      <div id="elemento2">
+        <p id="num2"></p>
+        <p id="position2"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
